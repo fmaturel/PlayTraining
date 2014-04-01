@@ -1,0 +1,112 @@
+<div class="grid">
+    <div class="row bg-dark">
+
+        <div class="span3 padding5">
+            <h2 class="fg-white" style="margin-left: 10px;"><span>{{film.titre}}</span></h2>
+        </div>
+
+        <div class="span5 padding15">
+            <span class="rating active fg-yellow no-margin" data-static="false" data-score="3"
+                  data-stars="5" data-role="rating" data-show-score="true" data-score-hint="Rating: ">
+                <ul>
+                    <li class="rated"></li>
+                    <li class="rated"></li>
+                    <li class="rated"></li>
+                    <li class="rated"></li>
+                    <li></li>
+                </ul>
+            </span>
+        </div>
+
+        <div class="span2 text-center padding20">
+            <span class="fg-white bg-red text-center padding10" style="margin-top: 15px; border-radius: 2px">{{film.nombreExemplaire}}</span>
+        </div>
+
+
+        <div class="span2 text-center padding10">
+            <form class="no-margin" ng-controller="CartCtrl">
+                <input type="hidden" name="id" ng-model="film.id">
+                <input type="button" class="large" value="Ajouter" ng-click="submit()">
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="span6">
+
+            <div class="padding10" style="background: center {{film.url}}; height: 230px;">
+                <h1 class="fg-white">{{film.titre}}</h1>
+                <h1 class="fg-white">1999</h1>
+                <h2 class="fg-white">{{film.acteurPrincipal.prenom}} {{film.acteurPrincipal.nom}}</h2>
+            </div>
+
+            <h2>Les acteurs secondaires</h2>
+            <div ng-repeat="acteur in film.acteurSecondaires">
+                <h3 class="fg-gray">{{acteur.prenom}} {{acteur.nom}}</h3>
+            </div>
+        </div>
+
+        <div class="span6 bg-white">
+
+            <h2>{{film.genre}}</h2>
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<hr>
+
+<div class="tile-group four no-margin no-padding clearfix">
+
+    <div class="tile half half-vertical bg-darkBlue ol-transparent">
+        <div class="tile-content icon">
+            <span class="icon-help"></span>
+        </div>
+    </div>
+
+    <div class="tile half half-vertical bg-yellow ol-transparent">
+        <div class="tile-content icon">
+            <span class="icon-alarm"></span>
+        </div>
+    </div>
+
+    <div class="tile half half-vertical bg-orange ol-transparent">
+        <div class="tile-content icon">
+            <span class="icon-shipping"></span>
+        </div>
+    </div>
+
+    <div class="tile half half-vertical bg-indigo ol-transparent">
+        <div class="tile-content icon">
+            <span class="icon-calendar"></span>
+        </div>
+    </div>
+
+    <div class="tile half half-vertical bg-lime ol-transparent">
+        <div class="tile-content icon">
+            <span class="icon-facebook"></span>
+        </div>
+    </div>
+
+    <div class="tile half half-vertical bg-lightPink ol-transparent">
+        <div class="tile-content icon">
+            <span class="icon-twitter"></span>
+        </div>
+    </div>
+
+    <div class="tile half half-vertical bg-orange ol-transparent">
+        <div class="tile-content icon">
+            <span class="icon-lightning"></span>
+        </div>
+    </div>
+
+    <div class="tile half half-vertical bg-teal ol-transparent">
+        <div class="tile-content icon">
+            <span class="icon-accessibility"></span>
+        </div>
+    </div>
+</div>

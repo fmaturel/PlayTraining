@@ -1,0 +1,37 @@
+@(t: Throwable)
+
+@main("Erreur")(breadcrum(
+	Collections.emptyMap()
+	)) {
+
+	    <div>
+	    	<h1>Oops</h1>
+	    	<blockquote>Huston... on a un problème!</blockquote>
+
+			<br>
+
+	    	<kbd>Message:</kbd><code>@t.getMessage()</code>
+
+	    	<br>
+
+	    	<kbd>Stack:</kbd>
+
+    		@if(t.getStackTrace() != null && t.getStackTrace().length > 0) {
+    			@for(stack <- t.getStackTrace()) {
+    				<code>@stack</code>
+    			}
+    		}
+
+	    	<br>
+
+	    	<kbd>Caused by:</kbd>
+
+    		@if(t.getCause() != null &&  t.getCause().getStackTrace() != null && t.getStackTrace().length > 0) {
+    			@for(cause <- t.getCause().getStackTrace()) {
+    				<code>@cause</code>
+    			}
+    		}
+
+	    </div>
+
+}

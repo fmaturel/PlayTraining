@@ -1,0 +1,62 @@
+@(films: Set[Film])
+
+@main(Messages("film.list.title"))(breadcrum(
+	collection.immutable.TreeMap(
+		"Accueil backoffice" -> "/bo",
+		Messages("film.list.title") -> "/bo/films")
+	)) {
+
+    <h1>@Messages("film.list.title")</h1>
+
+	@if(flash.containsKey("success")) {
+        <div>
+            <strong>Ok!</strong> @flash.get("success")
+        </div>
+    } 
+
+    @if(films == null || films.isEmpty()) {
+
+        <div>
+            <em>Il n'y a pas de films dans le stock</em>
+        </div>
+
+    } else {
+
+        <table>
+            <thead>
+                <tr>
+					<th>Titre</th>
+					<th>Genre</th>
+					<th>Nombre d'exemplaire</th>
+					<th>Acteur principal</th>
+					<th>Acteurs secondaires</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @for(film <- films) {
+                    <tr>
+                        <td><a href="/bo/films/@film.id">@film.titre</a></td>
+						<td>@film.genre</td>
+						<td>@film.nombreExemplaire</td>
+						<td>@film.acteurPrincipal.prenom @film.acteurPrincipal.nom</td>
+						<td>
+		                @for(acteur <- film.acteurSecondaires.iterator) {
+		                	<span>[@acteur.prenom @acteur.nom]</span>
+	                	}
+						</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+    }
+
+    <div>
+    
+        <a href="@controllers.bo.routes.Backoffice.create()">Ajouter un film</a>
+
+    </div>
+
+}

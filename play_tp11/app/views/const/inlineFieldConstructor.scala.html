@@ -1,0 +1,17 @@
+@(elements: helper.FieldElements)		
+
+<div class="form-group">
+	<label class="col-sm-4 control-label" for="@elements.id">@elements.label</label>
+	<div class="col-sm-4 @if(elements.hasErrors) {has-error}">
+		@if(elements.args.toMap.get('addon)) {
+		<span class="input-group-addon">@elements.args.toMap.get('addon)</span>
+		}
+		@elements.input
+		@if(elements.hasErrors) {
+		<span class="help-block">@elements.errors.mkString(", ")!</span>
+		}
+		@if(elements.infos) {
+		<span class="glyphicon glyphicon-remove help-block">@elements.infos.mkString(", ")</span>
+		}
+	</div>
+</div>

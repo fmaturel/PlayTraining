@@ -1,0 +1,37 @@
+@(loginForm: play.data.Form[controllers.bo.UserLogin.Login])
+
+@import helper._
+@implicitField = @{ FieldConstructor(const.customFieldConstructor.f) }
+
+@main("Identifiez-vous sur le BackOffice")(breadcrum(
+	Collections.emptyMap()
+	)) {
+	<div class="col-md-6 col-md-offset-3 text-center">
+
+	    <h1>Identifiez-vous</h1>
+	
+
+		@if(loginForm.hasGlobalErrors) {
+	    <div class="alert alert-warning alert-dismissable">
+	    	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+	        <strong>Attention! </strong><span>@loginForm.globalError.message</span>
+	    </div>
+		}
+		
+		<br>
+	    
+	    @form(controllers.bo.routes.UserLogin.authenticate, 'role -> "form") {
+
+		    @inputText(loginForm("email"), '_label -> null, '_showConstraints -> false, 'placeholder -> "email", 'addon -> "@", 'class -> "form-control input-group-lg")
+
+		    @inputPassword(loginForm("password"), '_label -> null, '_showConstraints -> false, 'placeholder -> "mot de passe", 'addon -> "***", 'class -> "form-control input-group-lg")
+
+			<br>
+
+		    <div class="actions">
+		        <input class="btn btn-lg btn-primary" type="submit" value="S'identifier">
+		    </div>
+	    }
+
+   	</div>
+}

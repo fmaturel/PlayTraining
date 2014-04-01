@@ -1,0 +1,12 @@
+@(message: String)
+
+@main("Frontoffice")(breadcrum(collection.immutable.HashMap("Accueil frontoffice" -> "/"))) {
+
+    <div>
+    	<h1>@message</h1>
+    	<p>C'est ici que nous mettrons en place le frontoffice</p>
+    	<p>En attendant, nous travaillons sur le backoffice pour la mise en place de l'API RESTFul:</p>
+    	<a href="/bo">Allez voir le backoffice</a>
+    </div>
+
+}

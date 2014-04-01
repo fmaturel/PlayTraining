@@ -1,0 +1,12 @@
+@(message: String)
+
+@main("Backoffice")(breadcrum(
+	collection.immutable.TreeMap(
+		"Accueil backoffice" -> "/bo")
+	)) {
+
+	<h1 id="homeTitle">@message</h1>
+	
+	<a href="/bo/films">@Messages("film.list.title")</a>
+   
+}       

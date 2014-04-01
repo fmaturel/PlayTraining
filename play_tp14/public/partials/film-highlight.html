@@ -1,0 +1,131 @@
+<div class="tile-group quadro no-margin no-padding clearfix">
+
+    <a ng-repeat="film in films" class="tile live double double-vertical bg-steel" data-role="live-tile" data-effect="slideUp" data-click="transform" href="#/films/{{film.id}}">
+        <div class="tile-content" style="background: url('assets/images/{{film.titre}}.jpg') center">
+            <div class="padding10">
+                <h1 class="fg-white ntm">{{film.titre}}</h1>
+                <h2 class="fg-white no-margin">{{film.genre}}</h2>
+                <p class="tertiary-text fg-white no-margin">1999</p>
+            </div>
+
+        </div>
+
+        <div class="brand">
+            <div class="badge" style="background-color: red"><b>{{film.nombreExemplaire}}</b></div>
+        </div>
+    </a>
+
+</div>
+
+<div class="tile-group triple no-margin no-padding clearfix" style="">
+
+    <div class="tile triple double-vertical ol-transparent bg-white">
+        <div class="tile-content">
+            <div class="panel no-border">
+                <div class="panel-header bg-darkRed fg-white">Le film de la semaine</div>
+                <div class="panel-content fg-dark nlp nrp">
+                    <img src="assets/images/Pirate.jpg" class="place-left margin10 nlm ntm size2">
+                    <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    Lorem Ipsum has been the industry's standard dummy text.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tile triple double-vertical ol-transparent bg-white">
+        <div class="tile-content">
+            <div class="panel no-border">
+                <div class="panel-header bg-pink fg-white">de l'action!</div>
+                <div class="panel-content fg-dark nlp nrp">
+                    <img src="assets/images/Chan.jpg" class="place-left margin10 nlm ntm size2">
+                    <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    Lorem Ipsum has been the industry's standard dummy text.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="tile-group no-margin no-padding clearfix">
+
+    <a href="#/cart">
+        <div class="tile half-vertical bg-darkGreen ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-cart-2"></span>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="tile-group no-margin no-padding clearfix">
+
+    <a href="#/cart">
+        <div class="tile half-vertical bg-cyan ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-cloud"></span>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="tile-group one no-margin no-padding clearfix">
+
+    <a href="#/cart">
+        <div class="tile half half-vertical bg-darkBlue ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-help"></span>
+            </div>
+        </div>
+
+        <div class="tile half half-vertical bg-yellow ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-alarm"></span>
+            </div>
+        </div>
+
+        <div class="tile half half-vertical bg-orange ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-shipping"></span>
+            </div>
+        </div>
+
+        <div class="tile half half-vertical bg-indigo ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-calendar"></span>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="tile-group one no-margin no-padding clearfix">
+
+    <a href="#/cart">
+        <div class="tile half half-vertical bg-lime ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-facebook"></span>
+            </div>
+        </div>
+
+        <div class="tile half half-vertical bg-lightPink ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-twitter"></span>
+            </div>
+        </div>
+
+        <div class="tile half half-vertical bg-orange ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-lightning"></span>
+            </div>
+        </div>
+
+        <div class="tile half half-vertical bg-teal ol-transparent">
+            <div class="tile-content icon">
+                <span class="icon-accessibility"></span>
+            </div>
+        </div>
+    </a>
+</div>
+

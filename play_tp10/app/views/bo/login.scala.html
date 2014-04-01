@@ -1,0 +1,26 @@
+@(loginForm: play.data.Form[controllers.bo.UserLogin.Login])
+
+@import helper._
+
+@main("Identifiez-vous sur le BackOffice")(breadcrum(
+	Collections.emptyMap()
+	)) {
+
+    <h1>Identifiez vous</h1>
+
+	@if(loginForm.hasGlobalErrors) {
+	    <p class="error">
+	        @loginForm.globalError.message
+	    </p>
+	}
+    
+    @form(controllers.bo.routes.UserLogin.authenticate) {
+    	
+		@inputText(loginForm("email"), '_label -> "email", '_showConstraints -> false)
+		@inputPassword(loginForm("password"), '_label -> "mot de passe", '_showConstraints -> false)
+	
+	    <div class="actions">
+	        <input type="submit" value="S'identifier">
+	    </div>
+    }
+}

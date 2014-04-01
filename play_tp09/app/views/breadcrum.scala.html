@@ -1,0 +1,8 @@
+@(breadcrums: Map[String,String])
+
+<p>Vous êtes ici @for((key, value) <- breadcrums) {
+	<span> &gt; </span><a href="@value">@key</a>
+}
+</p>
+
+<hr>

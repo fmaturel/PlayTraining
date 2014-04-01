@@ -1,0 +1,21 @@
+@(reports: List[models.Report], username: String)
+
+@main("Backoffice")(breadcrum(
+	collection.immutable.TreeMap(
+		"Accueil backoffice" -> "/bo",
+		"Rapports" -> "/bo/rapport")
+		, username
+	)) {
+	<div class="col-md-12">
+
+	    <h1>@Messages("rapport.title")</h1>
+	
+	
+		<ul>
+		@for(report <- reports) {
+			<li><a href="/bo/rapport/@report.id">@report</a></li>
+		}
+		</ul>
+	
+	</div>
+}

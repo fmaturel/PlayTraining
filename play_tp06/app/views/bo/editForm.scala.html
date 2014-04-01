@@ -1,0 +1,36 @@
+@(id: Long, filmForm: Form[Film])
+
+@import helper._
+
+@main(Messages("film.edit.title")){
+
+    <h1>@Messages("film.edit.title")</h1>
+
+    @form(controllers.bo.routes.Backoffice.update(id)) {
+
+        <fieldset>
+
+            @inputText(filmForm("titre"), '_label -> "Titre")
+            @inputText(filmForm("nombreExemplaire"), '_label -> "Nombre d'exemplaire")
+
+            @select(
+                filmForm("genre"), 
+                options(Genre.options), 
+                '_label -> "Genre", '_default -> "-- Choisissez un genre --",
+                '_showConstraints -> false
+            )
+
+        </fieldset>
+
+        <div>
+            <input type="submit" value="Enregistrer"> ou 
+            <a href="@controllers.bo.routes.Backoffice.list()">Annuler</a> 
+        </div>
+
+    }
+
+    @form(controllers.bo.routes.Backoffice.delete(id)) {
+        <input type="submit" value="Supprimer">
+    }
+
+}

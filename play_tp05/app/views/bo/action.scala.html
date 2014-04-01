@@ -1,0 +1,11 @@
+@(action: String, id: Long = null)
+
+@main("REST Api") {
+
+   	<a href="/bo">Retour à l'accueil du backoffice</a>
+    	
+    <div>
+    	<h1>@action @if(id != null) {sur l'id @id}</h1>
+    </div>
+
+}

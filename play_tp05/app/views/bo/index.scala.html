@@ -1,0 +1,38 @@
+@(message: String)
+
+@main("Backoffice") {
+
+	<h1>@message</h1>
+	
+   	<a href="/">Retour à l'accueil du projet</a>
+	
+	<!-- Les HTTP GET -->
+	<h2>HTTP GET</h2>
+		
+	<p>Un lien &lt;a&gt; va naturellement utiliser la méthode HTTP GET</p>
+	
+
+	<p><a href="/bo/films">Liste des films</a></p>
+	<p><a href="/bo/films/new">Créer un film</a></p>
+	<p><a href="/bo/films/1">Editer un film</a></p>
+	
+	<!-- Les HTTP POST -->
+	<h2>HTTP POST</h2>
+
+	<!-- Sauvegarde d'un film -->
+	<form action="/bo/films" method="POST">
+		<p>Un formulaire va naturellement utiliser la méthode HTTP GET aussi!</p>
+		<p>Il faut donc changer la valeur de l'attribut "method" du formulaire en "POST"</p>
+		<input type="submit" value="Enregistrer un film">
+	</form>
+
+	<form action="/bo/films/1" method="POST">
+		<p>Pareil pour le PUT, il faut changer la valeur de l'attribut "method" du formulaire en "PUT"</p>
+		<input type="submit" value="Mettre à jour un film">
+	</form>
+
+	<form action="/bo/films/1/delete" method="POST">
+		<p>Enfin pour le DELETE, il faut changer la valeur de l'attribut "method" du formulaire en "DELETE"</p>
+		<input type="submit" value="Supprimer un film">
+	</form>
+}       

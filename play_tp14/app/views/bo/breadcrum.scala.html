@@ -1,0 +1,20 @@
+@(breadcrums: Map[String,String])
+
+@import play.mvc.Http._
+
+@if(!breadcrums.isEmpty) {
+
+	<div class="col-md-12">
+
+		<p>Bonjour @Context.current().request().username()! Vous êtes ici 
+		@for((key, value) <- breadcrums) {
+			<span> ▶ </span><a href="@value">@key</a>
+		}
+		
+		<span style="float: right;"><a href="/bo/logout">Déconnexion</a></span>
+		</p>
+
+	<hr>
+	</div>
+
+}

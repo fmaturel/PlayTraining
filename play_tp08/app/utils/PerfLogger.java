@@ -83,6 +83,10 @@ public class PerfLogger {
     }
 
     private static <T> T[] concat(T[] first, T[] second) {
+        assert first != null;
+        if (second == null) {
+            return first;
+        } 
         T[] result = Arrays.copyOf(first, first.length + second.length);
         System.arraycopy(second, 0, result, first.length, second.length);
         return result;

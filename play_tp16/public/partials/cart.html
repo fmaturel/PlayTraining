@@ -1,0 +1,38 @@
+<div class="grid">
+
+    <div class="row bg-dark">
+        <h2 class="span8 padding10 fg-white"><span>Mon Panier</span></h2>
+
+        <div class="span2 text-center padding10">
+            <form class="no-margin">
+                <input type="button" class="large" value="Acheter" ng-click="order()" style="margin-right: 10px;">
+            </form>
+        </div>
+
+        <div class="span2 text-center padding10">
+            <form class="no-margin">
+                <input type="button" class="large bg-yellow" value="Vider" ng-click="empty()" style="margin-right: 10px;">
+            </form>
+        </div>
+
+
+    </div>
+
+    <div ng-repeat="item in items" >
+
+
+        <div class="row" ng-class-odd="'bg-amber'" ng-class-even="'bg-lime'">
+            <a  href="#/films/{{item.id}}">
+                <span class="span6 fg-black padding10">{{item.film.titre}}</span>
+
+                <span class="span4 fg-white padding10">[{{item.film.genre}}]</span>
+
+                <span class="span1 fg-white bg-darkBlue padding10 text-center">{{item.nb}}</span>
+            </a>
+
+            <a class="span1 fg-white bg-red padding10 text-center" ng-click="remove(item)">X</a>
+        </div>
+
+    </div>
+
+</div>

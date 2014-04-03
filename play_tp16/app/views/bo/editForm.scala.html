@@ -1,0 +1,80 @@
+@(id: Long, filmForm: play.data.Form[Film])
+
+@import helper._
+@implicitField = @{ FieldConstructor(const.inlineFieldConstructor.f) }
+
+@main(Messages("film.edit.title"))(breadcrum(
+	collection.immutable.TreeMap(
+		"Accueil backoffice" -> "/bo",
+		Messages("film.edit.title") -> ("/bo/films/" + id))
+	)) {
+
+	<div class="col-md-12">
+
+	    @form(controllers.bo.routes.Backoffice.update(id), 'id -> "form", 'role -> "form", 'class -> "form-horizontal") {
+
+			<h1>@Messages("film.edit.title") <input id="save" type="submit" value="Enregistrer" class="btn btn-primary btn-lg pull-right"></h1>
+
+			<div class="clearfix"></div>
+
+			<hr>
+
+            <h4>Informations</h4>
+
+            @inputText(filmForm("titre"), '_label -> "Titre", '_showConstraints -> false, 'class -> "form-control")
+
+            @inputText(filmForm("nombreExemplaire"), '_label -> "Nombre d'exemplaire", '_showConstraints -> false, 'class -> "form-control")
+
+            @select(
+                filmForm("genre"), 
+                options(Genre.options), 
+                '_label -> "Genre", '_default -> "-- Choisissez un genre --",
+                '_showConstraints -> false,
+                'class -> "form-control"
+            )
+
+			<hr>
+
+            <h4>Acteur Principal</h4>
+
+			@inputText(filmForm("acteurPrincipal.prenom"), '_label -> "Prénom", 'placeholder -> "Prénom d'acteur principal", '_showConstraints -> false, 'class -> "form-control")
+
+            @inputText(filmForm("acteurPrincipal.nom"), '_label -> "Nom", 'placeholder -> "Nom d'acteur principal", '_showConstraints -> false, 'class -> "form-control")
+
+			<hr>
+
+            <h4>Acteurs Secondaires</h4>
+			
+			<div class="text-right">
+				<a href="#" class="addActor btn btn-primary">Ajouter un acteur</a>
+			</div>
+
+            @**
+             * Keep an hidden block that will be used as template for Javascript copy code
+             **@
+            @acteur(filmForm("acteurSecondaires[x]"), -1, "acteur_template")
+
+            <div class="acteurSecondairesList">
+            @if(!filmForm("acteurSecondaires").indexes.isEmpty()) {
+   	            @for(i <- 0 to filmForm("acteurSecondaires").indexes.max){
+					@defining(filmForm("acteurSecondaires")("["+i+"]")){ acteurField =>
+						@acteur(acteurField, i)
+					}
+				}
+           	}
+			</div>
+	    }
+
+		<hr>
+
+	    @form(controllers.bo.routes.Backoffice.delete(id)) {
+			<div class="text-right">
+				<a href="@controllers.bo.routes.Backoffice.list()" class="btn btn-default">Annuler</a> 
+	        	<input type="submit" value="Supprimer" class="btn btn-danger">
+	        </div>
+	    }
+	
+	</div>
+
+    <script src="@routes.Assets.at("javascripts/bo/createOrEditFilm.js")" type="text/javascript"></script>
+}

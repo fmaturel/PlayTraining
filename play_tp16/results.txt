@@ -1,0 +1,996 @@
+[0m[[0minfo[0m] [0mLoading project definition from /media/data/play/tps/play_tp16/project[0m
+[0m[[0minfo[0m] [0mSet current project to play_tp16 (in build file:/media/data/play/tps/play_tp16/)[0m
+[0m[[0minfo[0m] [0mUpdating {file:/media/data/play/tps/play_tp16/}play_tp16...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#filters-helpers_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-link;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.0-GA ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#templates_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.github.scala-incubator.io#scala-io-core_2.10;0.4.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.jsuereth#scala-arm_2.10;1.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.10;0.7 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-functional_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.3.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving io.netty#netty;3.7.0.Final ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.netty#netty-http-pipelining;1.1.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.5 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.5 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.13 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.0.13 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.2.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.10;2.2.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.ning#async-http-client;1.7.18 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving oauth.signpost#signpost-core;1.2.1.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.0.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.0.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving xerces#xercesImpl;2.11.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.4.01 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving javax.transaction#jta;1.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-cache_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving net.sf.ehcache#ehcache-core;2.6.6 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-jdbc_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.jolbox#bonecp;0.8.0.RELEASE ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.google.guava#guava;14.0.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.3.172 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving tyrex#tyrex;1.0.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.yaml#snakeyaml;1.12 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.hibernate#hibernate-validator;5.0.1.Final ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving javax.validation#validation-api;1.1.0.Final ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.jboss.logging#jboss-logging;3.1.1.GA ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.fasterxml#classmate;0.8.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.springframework#spring-context;3.2.3.RELEASE ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.springframework#spring-core;3.2.3.RELEASE ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.springframework#spring-beans;3.2.3.RELEASE ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.reflections#reflections;0.9.8 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.google.code.findbugs#jsr305;2.0.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving javax.servlet#javax.servlet-api;3.0.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-jpa_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving javax.el#el-api;2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.glassfish.web#el-impl;2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.hibernate#hibernate-entitymanager;4.3.4.Final ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.jboss.logging#jboss-logging;3.1.3.GA ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.jboss.logging#jboss-logging-annotations;1.2.0.Beta1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.hibernate#hibernate-core;4.3.4.Final ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.jboss.spec.javax.transaction#jboss-transaction-api_1.2_spec;1.0.0.Final ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving dom4j#dom4j;1.6.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.hibernate.common#hibernate-commons-annotations;4.0.4.Final ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.1-GA ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving antlr#antlr;2.7.7 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.jboss#jandex;1.1.0.Final ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving mysql#mysql-connector-java;5.1.29 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.mockito#mockito-all;1.9.5 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving junit#junit;4.11 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.10;2.1.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-concurrent_2.10;7.0.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.10;7.0.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.novocode#junit-interface;0.10 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-tools.testing#test-interface;0.5 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.fluentlenium#fluentlenium-festassert;0.8.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.fluentlenium#fluentlenium-core;0.8.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-java;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-android-driver;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-remote-driver;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving cglib#cglib-nodep;2.1_3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.json#json;20080701 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-api;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.2.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.2.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.6 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-exec;1.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving net.java.dev.jna#jna;3.4.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving net.java.dev.jna#platform;3.4.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit;2.12 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving xalan#xalan;2.7.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving xalan#serializer;2.7.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpmime;4.2.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit-core-js;2.12 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving net.sourceforge.nekohtml#nekohtml;1.9.18 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving net.sourceforge.cssparser#cssparser;0.9.9 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.w3c.css#sac;1.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-util;8.1.9.v20130131 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-io;8.1.9.v20130131 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-http;8.1.9.v20130131 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-ie-driver;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-safari-driver;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.webbitserver#webbit;0.4.14 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-support;2.32.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.easytesting#fest-assert;1.4 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.easytesting#fest-util;1.1.6 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-docs_2.10;2.2.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-doc_2.10;1.0.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.pegdown#pegdown;1.4.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-java;1.1.5 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.5 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm;4.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-tree;4.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-analysis;4.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-util;4.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[0minfo[0m] [0mCompiling 18 Scala sources and 19 Java sources to /media/data/play/tps/play_tp16/target/scala-2.10/classes...[0m
+[0m[[0minfo[0m] [0mCompiling 6 Java sources to /media/data/play/tps/play_tp16/target/scala-2.10/test-classes...[0m
+[[37minfo[0m] play - datasource [jdbc:h2:mem:play-test--67733612;] bound to JNDI as VideoStore
+[[33mwarn[0m] o.h.e.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+[[33mwarn[0m] o.h.e.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+[[33mwarn[0m] o.h.e.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+[[36mdebug[0m] n.s.e.c.ConfigurationFactory - Configuring ehcache from URL: jar:file:/opt/devtools/play/play-2.2.2/repository/local/com.typesafe.play/play-cache_2.10/2.2.2/jars/play-cache_2.10.jar!/ehcache-default.xml
+[[36mdebug[0m] n.s.e.c.ConfigurationFactory - Configuring ehcache from InputStream
+[[36mdebug[0m] n.s.e.c.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+[[36mdebug[0m] n.s.e.c.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+[[36mdebug[0m] n.s.e.CacheManager - Creating new CacheManager with config URL: jar:file:/opt/devtools/play/play-2.2.2/repository/local/com.typesafe.play/play-cache_2.10/2.2.2/jars/play-cache_2.10.jar!/ehcache-default.xml
+[[36mdebug[0m] n.s.e.u.PropertyUtil - propertiesString is null.
+[[36mdebug[0m] n.s.e.c.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+[[36mdebug[0m] n.s.e.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+[[36mdebug[0m] n.s.e.Cache - CacheWriter factory not configured. Skipping...
+[[36mdebug[0m] n.s.e.c.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+[[36mdebug[0m] n.s.e.s.MemoryStore - Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+[[36mdebug[0m] n.s.e.Cache - Initialised cache: play
+[[36mdebug[0m] n.s.e.c.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+[[37minfo[0m] application - L'application a démarré
+[[34mtrace[0m] performances - Start[1396455223072] time[123] hr[123ms] tag[database.film.save[Film [id=1, titre=La grande vadrouille, genre=COMEDIE, nombreExemplaire=10, acteurPrincipal=Acteur [nom=De Funes, prenom=Louis], acteurSecondaires=[Acteur [nom=Bourvil, prenom=André]]]]]
+[[37minfo[0m] application - L'application s'arrête...
+[0m[[0minfo[0m] [0mmodels.PersistenceTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m testPersistence[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test models.PersistenceTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.011 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mmodels.ExempleTest[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test models.ExempleTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.0 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m0 tests, 0 failures, 0 errors[0m[0m
+[[37minfo[0m] play - datasource [jdbc:h2:mem:play-test--1568362666;] bound to JNDI as VideoStore
+[[33mwarn[0m] o.h.e.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+[[33mwarn[0m] o.h.e.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+[[33mwarn[0m] o.h.e.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+[[36mdebug[0m] n.s.e.c.ConfigurationFactory - Configuring ehcache from URL: jar:file:/opt/devtools/play/play-2.2.2/repository/local/com.typesafe.play/play-cache_2.10/2.2.2/jars/play-cache_2.10.jar!/ehcache-default.xml
+[[36mdebug[0m] n.s.e.c.ConfigurationFactory - Configuring ehcache from InputStream
+[[36mdebug[0m] n.s.e.c.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+[[36mdebug[0m] n.s.e.c.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+[[36mdebug[0m] n.s.e.CacheManager - Creating new CacheManager with config URL: jar:file:/opt/devtools/play/play-2.2.2/repository/local/com.typesafe.play/play-cache_2.10/2.2.2/jars/play-cache_2.10.jar!/ehcache-default.xml
+[[36mdebug[0m] n.s.e.u.PropertyUtil - propertiesString is null.
+[[36mdebug[0m] n.s.e.c.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+[[36mdebug[0m] n.s.e.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+[[36mdebug[0m] n.s.e.Cache - CacheWriter factory not configured. Skipping...
+[[36mdebug[0m] n.s.e.c.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+[[36mdebug[0m] n.s.e.s.MemoryStore - Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+[[36mdebug[0m] n.s.e.Cache - Initialised cache: play
+[[36mdebug[0m] n.s.e.c.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+[[37minfo[0m] application - L'application a démarré
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:796] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:796] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1318] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1318] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1479] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1479] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1665] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1665] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:6846] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:6853] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:6853] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7003] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7010] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7010] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7161] Error in expression. (Invalid token "135". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7169] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7169] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7324] Error in expression. (Invalid token "180". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7332] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7332] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7487] Error in expression. (Invalid token "225". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7495] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7495] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7650] Error in expression. (Invalid token "270". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7658] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7658] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7813] Error in expression. (Invalid token "360". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7821] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7821] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7977] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7984] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7984] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8140] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8147] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8147] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8304] Error in expression. (Invalid token "135". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8312] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8312] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8473] Error in expression. (Invalid token "180". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8481] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8481] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8642] Error in expression. (Invalid token "225". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8650] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8650] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8811] Error in expression. (Invalid token "270". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8819] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8819] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8980] Error in expression. (Invalid token "360". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8988] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8988] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9148] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9155] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9155] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9311] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9318] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9318] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9475] Error in expression. (Invalid token "135". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9483] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9483] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9644] Error in expression. (Invalid token "180". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9652] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9652] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9813] Error in expression. (Invalid token "225". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9821] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9821] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9982] Error in expression. (Invalid token "270". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9990] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9990] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:10151] Error in expression. (Invalid token "360". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:10159] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:10159] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:62582] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:62582] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:64677] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:64677] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:65000] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:65000] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:76936] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:76936] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:77860] Error in expression. (Invalid token "55". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:77866] Error in style rule. (Invalid token "-ms-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:77866] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:83772] Error in expression. (Invalid token "0". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:83778] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:83778] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:87149] Error in expression. (Invalid token "90". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:87156] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:87156] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121409] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121437] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121437] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121720] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121748] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121748] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122031] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122059] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122059] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122342] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122370] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122370] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122651] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122679] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122679] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123104] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123133] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123133] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123419] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123448] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123448] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123734] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123763] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123763] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124049] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124078] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124078] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124362] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124391] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124391] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124824] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124852] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124852] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125133] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125161] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125161] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125442] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125470] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125470] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125751] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125779] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125779] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126058] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126086] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126086] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126503] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126532] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126532] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126820] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126849] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126849] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127137] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127166] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127166] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127454] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127483] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127483] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127769] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127798] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127798] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:141071] Error in expression. (Invalid token "90". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:141078] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:141078] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:144793] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:144800] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:144800] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:159691] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:159698] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:159698] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:161007] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:161014] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:161014] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170123] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170130] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170130] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170298] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170305] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170305] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:176911] Error in expression. (Invalid token "90". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:176918] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:176918] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:177119] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:177126] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:177126] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:178117] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:178124] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:178124] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187023] Error in expression. (Invalid token "180". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187031] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187031] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187239] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187246] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187246] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:188228] Error in expression. (Invalid token "90". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:188235] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:188235] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:219259] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:219407] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:219407] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:220269] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:220417] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:220417] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:221281] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:221429] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:221429] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:222294] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:222442] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:222442] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:223309] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:223457] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:223457] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:224321] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:224469] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:224469] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:225333] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:225481] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:225481] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:226347] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:226495] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:226495] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:227361] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:227509] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:227509] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:228372] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:228520] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:228520] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:229384] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:229532] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:229532] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:230399] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:230547] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:230547] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:231414] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:231562] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:231562] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:232425] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:232573] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:232573] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:233439] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:233587] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:233587] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:234452] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:234600] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:234600] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:235466] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:235614] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:235614] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:236479] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:236627] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:236627] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:237492] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:237640] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:237640] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:238505] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:238653] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:238653] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:239518] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:239666] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:239666] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:240531] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:240679] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:240679] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:241543] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:241691] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:241691] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:242560] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:242708] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:242708] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:243579] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:243727] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:243727] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:244598] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:244746] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:244746] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:245616] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:245764] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:245764] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:246632] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:246780] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:246780] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:247650] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:247798] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:247798] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:248666] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:248814] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:248814] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:249685] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:249833] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:249833] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:250702] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:250850] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:250850] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:251720] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:251868] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:251868] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:252735] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:252883] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:252883] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:253751] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:253899] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:253899] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:254769] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:254917] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:254917] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:255785] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:255933] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:255933] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:256802] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:256950] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:256950] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:257820] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:257968] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:257968] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:258839] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:258987] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:258987] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:259856] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:260004] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:260004] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:260872] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:261020] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:261020] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:261890] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:262038] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:262038] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:262904] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:263052] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:263052] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:263919] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:264067] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:264067] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:264928] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:265076] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:265076] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:265942] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:266090] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:266090] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:266958] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:267106] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:267106] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:267970] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:268118] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:268118] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:845] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:845] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:947] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:947] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1151] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1151] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1369] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1369] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1597] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1597] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:4436] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:4436] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:4549] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:4549] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5376] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5376] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5553] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5553] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5729] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5729] Ignoring the whole rule.
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[37minfo[0m] application - L'application s'arrête...
+[0m[[0minfo[0m] [0mFonctionalTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m runInVirtualBrowser[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test FonctionalTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.0 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mmodels.MockitoTest[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test models.MockitoTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.0 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m0 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mApplicationTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m simpleCheck[0m
+[0m[[0minfo[0m] [0m[32m+[0m renderTemplate[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test ApplicationTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.0 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m2 tests, 0 failures, 0 errors[0m[0m
+[[37minfo[0m] play - datasource [jdbc:h2:mem:play-test-198671885;] bound to JNDI as VideoStore
+[[33mwarn[0m] o.h.e.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+[[33mwarn[0m] o.h.e.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+[[33mwarn[0m] o.h.e.HibernatePersistence - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+[[36mdebug[0m] n.s.e.c.ConfigurationFactory - Configuring ehcache from URL: jar:file:/opt/devtools/play/play-2.2.2/repository/local/com.typesafe.play/play-cache_2.10/2.2.2/jars/play-cache_2.10.jar!/ehcache-default.xml
+[[36mdebug[0m] n.s.e.c.ConfigurationFactory - Configuring ehcache from InputStream
+[[36mdebug[0m] n.s.e.c.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+[[36mdebug[0m] n.s.e.c.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+[[36mdebug[0m] n.s.e.CacheManager - Creating new CacheManager with config URL: jar:file:/opt/devtools/play/play-2.2.2/repository/local/com.typesafe.play/play-cache_2.10/2.2.2/jars/play-cache_2.10.jar!/ehcache-default.xml
+[[36mdebug[0m] n.s.e.u.PropertyUtil - propertiesString is null.
+[[36mdebug[0m] n.s.e.c.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+[[36mdebug[0m] n.s.e.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+[[36mdebug[0m] n.s.e.Cache - CacheWriter factory not configured. Skipping...
+[[36mdebug[0m] n.s.e.c.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+[[36mdebug[0m] n.s.e.s.MemoryStore - Initialized net.sf.ehcache.store.NotifyingMemoryStore for play
+[[36mdebug[0m] n.s.e.Cache - Initialised cache: play
+[[36mdebug[0m] n.s.e.c.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'play'.
+[[37minfo[0m] application - L'application a démarré
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:796] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:796] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1318] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1318] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1479] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1479] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1665] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:1665] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:6846] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:6853] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:6853] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7003] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7010] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7010] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7161] Error in expression. (Invalid token "135". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7169] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7169] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7324] Error in expression. (Invalid token "180". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7332] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7332] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7487] Error in expression. (Invalid token "225". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7495] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7495] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7650] Error in expression. (Invalid token "270". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7658] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7658] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7813] Error in expression. (Invalid token "360". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7821] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7821] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7977] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7984] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:7984] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8140] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8147] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8147] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8304] Error in expression. (Invalid token "135". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8312] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8312] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8473] Error in expression. (Invalid token "180". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8481] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8481] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8642] Error in expression. (Invalid token "225". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8650] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8650] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8811] Error in expression. (Invalid token "270". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8819] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8819] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8980] Error in expression. (Invalid token "360". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8988] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:8988] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9148] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9155] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9155] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9311] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9318] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9318] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9475] Error in expression. (Invalid token "135". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9483] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9483] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9644] Error in expression. (Invalid token "180". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9652] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9652] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9813] Error in expression. (Invalid token "225". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9821] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9821] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9982] Error in expression. (Invalid token "270". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9990] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:9990] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:10151] Error in expression. (Invalid token "360". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:10159] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:10159] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:62582] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:62582] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:64677] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:64677] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:65000] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:65000] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:76936] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:76936] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:77860] Error in expression. (Invalid token "55". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:77866] Error in style rule. (Invalid token "-ms-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:77866] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:83772] Error in expression. (Invalid token "0". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:83778] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:83778] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:87149] Error in expression. (Invalid token "90". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:87156] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:87156] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121409] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121437] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121437] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121720] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121748] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:121748] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122031] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122059] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122059] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122342] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122370] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122370] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122651] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122679] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:122679] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123104] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123133] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123133] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123419] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123448] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123448] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123734] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123763] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:123763] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124049] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124078] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124078] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124362] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124391] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124391] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124824] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124852] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:124852] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125133] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125161] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125161] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125442] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125470] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125470] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125751] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125779] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:125779] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126058] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126086] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126086] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126503] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126532] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126532] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126820] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126849] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:126849] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127137] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127166] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127166] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127454] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127483] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127483] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127769] Error in expression. (Invalid token "500". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127798] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:127798] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:141071] Error in expression. (Invalid token "90". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:141078] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:141078] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:144793] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:144800] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:144800] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:159691] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:159698] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:159698] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:161007] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:161014] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:161014] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170123] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170130] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170130] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170298] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170305] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:170305] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:176911] Error in expression. (Invalid token "90". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:176918] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:176918] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:177119] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:177126] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:177126] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:178117] Error in expression. (Invalid token "45". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:178124] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:178124] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187023] Error in expression. (Invalid token "180". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187031] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187031] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187239] Error in expression. (Invalid token "90". Was expecting one of: <S>, <NUMBER>, <IDENT>, <STRING>, <PLUS>, <COMMA>, <URI>, "-", "=".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187246] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:187246] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:188228] Error in expression. (Invalid token "90". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:188235] Error in style rule. (Invalid token "-moz-transform". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:188235] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:219259] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:219407] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:219407] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:220269] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:220417] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:220417] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:221281] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:221429] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:221429] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:222294] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:222442] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:222442] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:223309] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:223457] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:223457] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:224321] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:224469] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:224469] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:225333] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:225481] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:225481] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:226347] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:226495] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:226495] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:227361] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:227509] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:227509] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:228372] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:228520] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:228520] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:229384] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:229532] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:229532] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:230399] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:230547] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:230547] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:231414] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:231562] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:231562] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:232425] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:232573] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:232573] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:233439] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:233587] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:233587] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:234452] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:234600] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:234600] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:235466] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:235614] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:235614] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:236479] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:236627] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:236627] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:237492] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:237640] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:237640] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:238505] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:238653] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:238653] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:239518] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:239666] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:239666] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:240531] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:240679] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:240679] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:241543] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:241691] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:241691] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:242560] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:242708] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:242708] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:243579] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:243727] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:243727] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:244598] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:244746] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:244746] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:245616] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:245764] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:245764] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:246632] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:246780] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:246780] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:247650] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:247798] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:247798] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:248666] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:248814] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:248814] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:249685] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:249833] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:249833] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:250702] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:250850] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:250850] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:251720] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:251868] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:251868] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:252735] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:252883] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:252883] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:253751] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:253899] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:253899] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:254769] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:254917] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:254917] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:255785] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:255933] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:255933] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:256802] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:256950] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:256950] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:257820] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:257968] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:257968] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:258839] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:258987] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:258987] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:259856] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:260004] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:260004] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:260872] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:261020] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:261020] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:261890] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:262038] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:262038] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:262904] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:263052] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:263052] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:263919] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:264067] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:264067] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:264928] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:265076] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:265076] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:265942] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:266090] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:266090] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:266958] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:267106] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:267106] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:267970] Error in expression. (Invalid token "45". Was expecting: <NUMBER>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:268118] Error in style rule. (Invalid token "background-image". Was expecting one of: <EOF>, "}", ";".)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap.min.css' [1:268118] Ignoring the following declarations in this rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:845] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:845] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:947] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:947] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1151] Error in @media rule. (Invalid token "and". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1151] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1369] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1369] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1597] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:1597] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:4436] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:4436] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:4549] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:4549] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5376] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5376] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5553] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5553] Ignoring the whole rule.
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS error: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5729] Error in @media rule. (Invalid token "screen". Was expecting one of: <S>, <LBRACE>, <COMMA>.)
+[[33mwarn[0m] c.g.h.DefaultCssErrorHandler - CSS warning: 'http://localhost:3333/assets/stylesheets/metro-bootstrap-responsive.min.css' [1:5729] Ignoring the whole rule.
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[31merror[0m] c.g.h.j.StrictErrorReporter - runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://localhost:3333/assets/javascripts/jquery-1.9.0.min.js] line=[1] lineSource=[null] lineOffset=[0]
+[[37minfo[0m] application - L'application s'arrête...
+[0m[[0minfo[0m] [0mIntegrationTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m test[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test IntegrationTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.001 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mmodels.ExempleTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m test[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test models.ExempleTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.001 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
+François
+François
+[0m[[0minfo[0m] [0mmodels.MockitoTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m testMockExemple[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test models.MockitoTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.001 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
+François
+François
+[0m[[0minfo[0m] [0mmodels.MockitoTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m testMockExemple[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test models.MockitoTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.002 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mPassed: Total 7, Failed 0, Errors 0, Passed 7[0m
+[0m[[32msuccess[0m] [0mTotal time: 34 s, completed Apr 2, 2014 6:13:51 PM[0m

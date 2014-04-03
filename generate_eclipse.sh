@@ -29,8 +29,9 @@ do
 	cd $dir
 	echo "entered $dir"
 	
-	$PLAY "clean-all"
-	$PLAY "eclipse with-source=true"
+	#$PLAY "clean-all"
+	#$PLAY "eclipse with-source=true"
+	#$PLAY "compile"
 	cd ..
 done
 }

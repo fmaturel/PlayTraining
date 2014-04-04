@@ -11,7 +11,7 @@ Those can be found in this repository, each one covering one aspect of the frame
 
 | Tutorial | Topic |
 | :------------ | :------------ |
-| [tp01_02](https://github.com/fmaturel/PlayTraining/tree/master/play_tp01_02)  | Installing the framework and starting a new project. Install and launch eclipse scala for editing & debuging. |
+| [tp01_02](https://github.com/fmaturel/PlayTraining/tree/master/play_tp01_tp02)  | Installing the framework and starting a new project. Install and launch eclipse scala for editing & debuging. |
 | [tp03](https://github.com/fmaturel/PlayTraining/tree/master/play_tp03)  | Hot Reload! |
 | [tp04](https://github.com/fmaturel/PlayTraining/tree/master/play_tp04)  | Create a RESTful API for the backoffice |
 | [tp05](https://github.com/fmaturel/PlayTraining/tree/master/play_tp05)  | Configuring logs |

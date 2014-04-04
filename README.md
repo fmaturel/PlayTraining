@@ -11,22 +11,22 @@ Those can be found in this repository, each one covering one aspect of the frame
 
 | Tutorial | Topic |
 | :------------ | :------------ |
-| [tp01_02](https://github.com/fmaturel/PlayTraining/play_tp01_02)  | Installing the framework and starting a new project. Install and launch eclipse scala for editing & debuging. |
-| [tp03](https://github.com/fmaturel/PlayTraining/play_tp03)  | Hot Reload! |
-| [tp04](https://github.com/fmaturel/PlayTraining/play_tp04)  | Create a RESTful API for the backoffice |
-| [tp05](https://github.com/fmaturel/PlayTraining/play_tp05)  | Configuring logs |
-| [tp06](https://github.com/fmaturel/PlayTraining/play_tp06)  | Creating application model |
-| [tp07](https://github.com/fmaturel/PlayTraining/play_tp07)  | Bean validation |
-| [tp08](https://github.com/fmaturel/PlayTraining/play_tp08)  | Redirection and error handling |
-| [tp09](https://github.com/fmaturel/PlayTraining/play_tp09)  | Connection to Database - Configuring JPA - ORM |
-| [tp10](https://github.com/fmaturel/PlayTraining/play_tp10)  | Authentication |
-| [tp11](https://github.com/fmaturel/PlayTraining/play_tp11)  | Managing static resources |
-| [tp12](https://github.com/fmaturel/PlayTraining/play_tp12)  | A modern web application using JSON and AngularJS |
-| [tp13](https://github.com/fmaturel/PlayTraining/play_tp13)  | Server side caching |
-| [tp14](https://github.com/fmaturel/PlayTraining/play_tp14)  | Websockets |
-| [tp15](https://github.com/fmaturel/PlayTraining/play_tp15)  | Asynchronous Processing |
-| [tp16](https://github.com/fmaturel/PlayTraining/play_tp16)  | Testing you app |
-| [tp17](https://github.com/fmaturel/PlayTraining/play_tp17)  | Deploing and prepare for production |
+| [tp01_02](https://github.com/fmaturel/PlayTraining/tree/master/play_tp01_02)  | Installing the framework and starting a new project. Install and launch eclipse scala for editing & debuging. |
+| [tp03](https://github.com/fmaturel/PlayTraining/tree/master/play_tp03)  | Hot Reload! |
+| [tp04](https://github.com/fmaturel/PlayTraining/tree/master/play_tp04)  | Create a RESTful API for the backoffice |
+| [tp05](https://github.com/fmaturel/PlayTraining/tree/master/play_tp05)  | Configuring logs |
+| [tp06](https://github.com/fmaturel/PlayTraining/tree/master/play_tp06)  | Creating application model |
+| [tp07](https://github.com/fmaturel/PlayTraining/tree/master/play_tp07)  | Bean validation |
+| [tp08](https://github.com/fmaturel/PlayTraining/tree/master/play_tp08)  | Redirection and error handling |
+| [tp09](https://github.com/fmaturel/PlayTraining/tree/master/play_tp09)  | Connection to Database - Configuring JPA - ORM |
+| [tp10](https://github.com/fmaturel/PlayTraining/tree/master/play_tp10)  | Authentication |
+| [tp11](https://github.com/fmaturel/PlayTraining/tree/master/play_tp11)  | Managing static resources |
+| [tp12](https://github.com/fmaturel/PlayTraining/tree/master/play_tp12)  | A modern web application using JSON and AngularJS |
+| [tp13](https://github.com/fmaturel/PlayTraining/tree/master/play_tp13)  | Server side caching |
+| [tp14](https://github.com/fmaturel/PlayTraining/tree/master/play_tp14)  | Websockets |
+| [tp15](https://github.com/fmaturel/PlayTraining/tree/master/play_tp15)  | Asynchronous Processing |
+| [tp16](https://github.com/fmaturel/PlayTraining/tree/master/play_tp16)  | Testing you app |
+| [tp17](https://github.com/fmaturel/PlayTraining/tree/master/play_tp17)  | Deploing and prepare for production |
 
 Hope you'll love it!
 

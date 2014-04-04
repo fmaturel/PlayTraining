@@ -17,8 +17,8 @@ Follow the trainer's to retrieve the binaries of following programs:
 
 To work with the Play! Framework, You need JDK 6 or later.
 - If you are a Mac OS user, Java is integrated.
-- If you are a Linux user, make sure you use the Sun JDK or OpenJDK (no GCJ , which is the distribution of Java by default on many distributions) .
-- If you use Windows , simply download and install the latest JDK.
+- If you are a Linux user, make sure you use the Sun JDK or OpenJDK (no GCJ, which is the distribution of Java by default on many distributions).
+- If you use Windows, simply download and install the latest JDK.
 
 1. Create the "play" directory and unzip Play! Framework in this directory.
 Check that the directory "./play/play-2.2.1 " is created.
@@ -56,14 +56,15 @@ C:\play\tps>play help
 |  __/|_|\____|\__ /
 |_|            |__/
 
-Play Scala 2.2.1 built with 2.10.2 ( running Java 1.7.0_51 ) http://www.playframework.com
-Welcome to Play 2.2.1 !
+play 2.2.1 built with Scala 2.10.2 (running Java 1.7.0_51), http://www.playframework.com
+Welcome to Play 2.2.1!
 
 These commands are available:
-license Display licensing information.
-new [ directory ] Create a new Play application in the specified directory .
+-----------------------------
+license            Display licensing informations.
+new [directory]    Create a new Play application in the specified directory.
 
-You can browse the complete documentation aussi at http://www.playframework.com .
+You can also browse the complete documentation at http://www.playframework.com.
 ```
 
 ## Creating our application
@@ -78,25 +79,25 @@ The type of skeleton to use for this application.
 You should choose the Java application type that will be studied during the course.
 ```
 C:\play\tps>play new videostore
-...
-The new Application Will Be created in C: \ play \ tps \ videostore
+…
+The new application will be created in C:\play\tps\videostore
 
-What is the application name ? [ videostore ]
+What is the application name? [videostore]
 >
 Which template do you want to use for this new application?
 
-  1 - Create a Simple Application Scala
-  2 - Create a simple Java application
+  1             - Create a simple Scala application
+  2             - Create a simple Java application
 > 2
-OK , videostore implementation is created .
+OK, application videostore is created.
 Have fun!
 ```
 
 Our skeleton Java application is created.
 A "tree" command will show us how this skeleton is built:
 
-C:\play\tps>tree
 ```
+C:\play\tps>tree
 Folder PATH listing for volume xxx
 Volume serial number is xxx
 C:

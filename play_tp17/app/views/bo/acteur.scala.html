@@ -1,0 +1,10 @@
+@(field: Field, count: Long, className: String = "acteurSecondaire")
+
+@import helper._
+@implicitField = @{ FieldConstructor(const.inlineFieldConstructor.f) }
+
+<div class="@className"><strong>+ Acteur secondaire <span class="count">@(count + 1)</span></strong> [<a href="#" class="removeActor">Supprimer</a>]
+	@inputText(field("prenom"), '_label -> "Prénom", 'placeholder -> "Prénom d'acteur secondaire", '_showConstraints -> false, 'class -> "form-control")
+
+	@inputText(field("nom"), '_label -> "Nom", 'placeholder -> "Nom d'acteur secondaire", '_showConstraints -> false, 'class -> "form-control")
+</div>

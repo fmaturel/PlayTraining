@@ -15,14 +15,16 @@ import javax.validation.Valid;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-import com.google.common.collect.ImmutableListMultimap;
-
 import play.data.validation.Constraints.Max;
 import play.data.validation.Constraints.MaxLength;
 import play.data.validation.Constraints.Min;
 import play.data.validation.Constraints.MinLength;
 import play.data.validation.Constraints.Required;
 import play.db.jpa.JPA;
+import utils.PerfLogger;
+
+import com.google.common.collect.ImmutableListMultimap;
+
 import controllers.Frontoffice.Order;
 import controllers.Frontoffice.Order.Item;
 
@@ -158,7 +160,10 @@ public class Film {
      * @return le Film correspondant à l'identifiant
      */
     public static Film findById(Long id) {
-        return JPA.em().find(Film.class, id);
+        PerfLogger perf = PerfLogger.start("database.film.findById");
+        Film result = JPA.em().find(Film.class, id);
+        perf.stop();
+        return result;
     }
 
     /**
@@ -167,8 +172,11 @@ public class Film {
      * @return l'ensemble des Films
      */
     public static List<Film> findAll() {
+        PerfLogger perf = PerfLogger.start("database.film.findAll");
         TypedQuery<Film> query = JPA.em().createQuery("FROM Film", Film.class);
-        return query.getResultList();
+        List<Film> result = query.getResultList();
+        perf.stop();
+        return result;
     }
 
     /**
@@ -177,8 +185,8 @@ public class Film {
      * @return l'ensemble des Films
      */
     public static List<Film> findBy(String genre, int maxResult) {
-
-        play.Logger.info("Demande du genre [{}] et max [{}]", genre, maxResult);
+        play.Logger.debug("findBy genre [{}] & max [{}]", genre, maxResult);
+        PerfLogger perf = PerfLogger.start("database.film.findBy[{}]", genre + "," + maxResult);
 
         if (genre.equals("tous")) {
             List<Film> list = findAll();
@@ -189,16 +197,23 @@ public class Film {
         query.setParameter("genre", Genre.valueOf(genre));
         query.setMaxResults(maxResult);
 
-        return query.getResultList();
+        List<Film> result = query.getResultList();
+        perf.stop();
+        return result;
     }
 
     public static List<Film> search(String q) {
+        PerfLogger perf = PerfLogger.start("database.film.search[{}]", q);
         TypedQuery<Film> query = JPA.em().createQuery("FROM Film f where f.titre like :q", Film.class);
         query.setParameter("q", "%" + q + "%");
-        return query.getResultList();
+        List<Film> result = query.getResultList();
+        perf.stop();
+        return result;
     }
 
     public static void order(Order order) {
+        PerfLogger perf = PerfLogger.start("database.film.order[{}]", order);
+
         TypedQuery<Film> query = JPA.em().createQuery("FROM Film f where f.id in :ids", Film.class);
         ImmutableListMultimap<Long, Item> itemsByIds = order.getItemsByIds();
 
@@ -214,6 +229,7 @@ public class Film {
             film.nombreExemplaire = stock < 0 ? 0 : stock;
             film.save();
         }
+        perf.stop();
     }
 
     /**
@@ -221,14 +237,18 @@ public class Film {
      */
     public void save() {
         Server.talk("Le film " + titre + " est disponible pour la vente!");
+        PerfLogger perf = PerfLogger.start("database.film.save[{}]", this);
         JPA.em().persist(this);
+        perf.stop();
     }
 
     /**
      * Supprime ce Film.
      */
     public void delete() {
+        PerfLogger perf = PerfLogger.start("database.film.delete[{}]", this);
         JPA.em().remove(this);
+        perf.stop();
     }
 
 }

@@ -185,14 +185,14 @@ Time to have a break (coffee!) 
 In the directory "C:\play" previously created, extract the zip Eclipse IDE for Scala.
 You must have the directory "C:\play\eclipse" created.
 
-1. Create an application shortcut to the desktop eclipse.exe
+### Create an application shortcut to the desktop eclipse.exe
 
 ```
 C:\play\eclipse\eclipse.exe
 ```
 
-2. And run the application.
-We will now prepare our project "videostore" in order to import it into eclipse scala .
+### And run the application.
+We will now prepare our project "videostore" in order to import it into eclipse scala.
 The play console starts with the "play" command in the root directory of your application.
 Then the "help play" command is used for the various valid orders on our project.
 
@@ -239,14 +239,14 @@ While staying in the console, run the command "eclipse" (on previous versions of
 [videostore] $
 ```
 
-NB : All command can be executed either with the play script, or in the play console.
+NB: All command can be executed either with the play script, or in the play console.
 For instance type "eclipse" in the play command, or directly type "play eclipse" in the terminal.
 You could therefore run the following command to have the same result previous command.
 ```
 D:\play\tps\videostore>play eclipse
 ```
 
-3. Import the project in eclipse to see the project structure.
+### Import the project in eclipse to see the project structure.
 
 Check that your project has the following structure:
 ```

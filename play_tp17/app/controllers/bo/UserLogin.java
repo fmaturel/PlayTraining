@@ -1,6 +1,7 @@
 package controllers.bo;
 
 import models.User;
+import play.cache.Cached;
 import play.data.Form;
 import play.data.validation.Constraints;
 import play.mvc.Controller;
@@ -9,6 +10,11 @@ import utils.PerfLogger;
 import views.html.bo.login;
 
 public class UserLogin extends Controller {
+    
+    /**
+     * Cache duration in seconds: 1 month
+     */
+    private static final int LONG_DURATION = 3600 * 24 * 30;
 
     public static class Login {
 
@@ -44,6 +50,7 @@ public class UserLogin extends Controller {
     /**
      * Get the login form.
      */
+    @Cached(key = "bo.login", duration = LONG_DURATION)
     public static Result login() {
         PerfLogger perf = PerfLogger.start("http.backoffice.login");
         Result result = ok(login.render(Form.form(Login.class)));

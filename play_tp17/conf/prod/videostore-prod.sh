@@ -16,6 +16,7 @@
 APP_NAME="videostore"
 APP_PATH="$( cd "$( dirname "$0" )" && pwd )"
 APP_PORT=9000
+APP_HTTPS_PORT=9443
 APP_CONFIG=$APP_PATH/$APP_NAME-prod.conf
 APP_LOGGER=$APP_PATH/$APP_NAME-logger.xml
 APP_EXTRA="-XX:PermSize=128m -XX:MaxPermSize=512m -Xms128m -Xmx1024m -server"
@@ -29,6 +30,7 @@ export APP_NAME=$APP_NAME
 
 start() {
 	echo "Running $APP in directory [$APP_PATH]"
+	# Use -Dhttp.port=disabled to disable http
 	
     java $* $APP_EXTRA -cp "$APP_PATH/public:$APP_PATH/lib/*" \
             -Dcom.sun.management.jmxremote.port=1099 \
@@ -38,6 +40,9 @@ start() {
             -Dhttp.port=$APP_PORT \
             -Dconfig.file=$APP_CONFIG \
             -Dlogger.file=$APP_LOGGER \
+            -Dhttps.port=$APP_HTTPS_PORT \
+            -Dhttps.keyStore=$APP_PATH/conf/.keystore \
+            -Dhttps.keyStorePassword=laformationplay \
             play.core.server.NettyServer $APP_PATH &
 }
 

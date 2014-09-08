@@ -14,9 +14,9 @@
 if hash play 2>/dev/null;
 then
 	PLAY=play
-else 
+else
 	echo "Play command not found, expecting it in /opt/devtools/play/play-2.2.2/play"
-	PLAY=/opt/devtools/play/play-2.2.2/play 
+	PLAY=/opt/devtools/play/play-2.2.2/play
 fi
 
 ######################################################################################################
@@ -28,8 +28,7 @@ for dir in $1/*/
 do
 	cd $dir
 	echo "entered $dir"
-	
-	#$PLAY "clean-all"
+	$PLAY "clean-all"
 	#$PLAY "eclipse with-source=true"
 	#$PLAY "compile"
 	cd ..

@@ -1,5 +1,6 @@
 
 import junit.framework.TestCase;
+import models.Report;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -31,6 +32,16 @@ public class JUnitTest extends TestCase {
 
     @Test
     public void test() {
-        assertTrue(1 + 1 == 2);
+        Report r = new Report("test");
+        r.content = "Ceci est un test".getBytes();
+        
+        assertEquals(null, r.getChunk(Integer.MIN_VALUE));
+        assertEquals(null, r.getChunk(-1));
+        assertEquals("Ceci", r.getChunk(0));
+        assertEquals("est", r.getChunk(1));
+        assertEquals("un", r.getChunk(2));
+        assertEquals("test", r.getChunk(3));
+        assertEquals(null, r.getChunk(4));
+        assertEquals(null, r.getChunk(Integer.MAX_VALUE));
     }
 }

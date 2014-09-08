@@ -37,7 +37,7 @@ filmServices.factory('WebSocket', ['$q', '$rootScope', function($q, $rootScope) 
   // Create a unique callback ID to map requests to responses
   var currentCallbackId = 0;
   // Create our websocket object with the address to the websocket
-  var ws = new WebSocket("ws://localhost:9000/ws");
+  var ws = new WebSocket("ws://play.dijit.fr:9000/ws");
 
   ws.onopen = function(){
     console.log("Socket has been opened!");

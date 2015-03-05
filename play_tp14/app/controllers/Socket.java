@@ -1,12 +1,11 @@
 package controllers;
 
-import java.util.UUID;
-
+import com.fasterxml.jackson.databind.JsonNode;
 import models.MessageRoom;
 import play.mvc.Controller;
 import play.mvc.WebSocket;
 
-import com.fasterxml.jackson.databind.JsonNode;
+import java.util.UUID;
 
 public class Socket extends Controller {
 

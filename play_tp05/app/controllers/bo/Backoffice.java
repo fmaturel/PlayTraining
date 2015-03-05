@@ -1,8 +1,8 @@
 package controllers.bo;
 
-import play.api.templates.Html;
 import play.mvc.Controller;
 import play.mvc.Result;
+import play.twirl.api.Html;
 import utils.PerfLogger;
 import views.html.bo.action;
 import views.html.bo.index;
@@ -25,7 +25,7 @@ public class Backoffice extends Controller {
     }
 
     /**
-     * Display the list of {@link Film}.
+     * Display the list of film.
      */
     public static Result list() {
         return ok(action.render("Lister les films", null));
@@ -33,7 +33,7 @@ public class Backoffice extends Controller {
 
     /**
      * Display the 'edit form' of a existing Film.
-     * 
+     *
      * @param id Id of the film to edit
      */
     public static Result edit(Long id) {
@@ -42,7 +42,7 @@ public class Backoffice extends Controller {
 
     /**
      * Handle the 'edit form' submission
-     * 
+     *
      * @param id Id of the film to edit
      */
     public static Result update(Long id) {

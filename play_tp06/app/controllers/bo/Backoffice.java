@@ -1,17 +1,18 @@
 package controllers.bo;
 
-import static play.data.Form.form;
 import models.Film;
 import models.Stock;
-import play.api.templates.Html;
 import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
+import play.twirl.api.Html;
 import utils.PerfLogger;
 import views.html.bo.createForm;
 import views.html.bo.editForm;
 import views.html.bo.index;
 import views.html.bo.list;
+
+import static play.data.Form.form;
 
 public class Backoffice extends Controller {
 
@@ -39,7 +40,7 @@ public class Backoffice extends Controller {
 
     /**
      * Display the 'edit form' of a existing Film.
-     * 
+     *
      * @param id Id of the film to edit
      */
     public static Result edit(Long id) {
@@ -53,7 +54,7 @@ public class Backoffice extends Controller {
 
     /**
      * Handle the 'edit form' submission
-     * 
+     *
      * @param id Id of the film to edit
      */
     public static Result update(Long id) {

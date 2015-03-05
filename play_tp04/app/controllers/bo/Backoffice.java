@@ -28,7 +28,7 @@ public class Backoffice extends Controller {
 
     /**
      * Display the 'edit form' of a existing Film.
-     * 
+     *
      * @param id Id of the film to edit
      */
     public static Result edit(Long id) {
@@ -37,7 +37,7 @@ public class Backoffice extends Controller {
 
     /**
      * Handle the 'edit form' submission
-     * 
+     *
      * @param id Id of the film to edit
      */
     public static Result update(Long id) {

@@ -1,7 +1,9 @@
 name := "play_tp04"
 
-version := "1.18"
+version := "2.3.8"
 
-libraryDependencies ++= Seq()
+lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
-play.Project.playJavaSettings
+scalaVersion := "2.11.1"
+
+fork in run := true

@@ -11,18 +11,18 @@
 
         <div class="span2 text-center padding10">
             <form class="no-margin">
-                <input type="button" class="large bg-yellow" value="Vider" ng-click="empty()" style="margin-right: 10px;">
+                <input type="button" class="large bg-yellow" value="Vider" ng-click="empty()"
+                       style="margin-right: 10px;">
             </form>
         </div>
 
-
     </div>
 
-    <div ng-repeat="item in items" >
+    <div ng-repeat="item in items">
 
 
         <div class="row" ng-class-odd="'bg-amber'" ng-class-even="'bg-lime'">
-            <a  href="#/films/{{item.id}}">
+            <a href="#/films/{{item.id}}">
                 <span class="span6 fg-black padding10">{{item.film.titre}}</span>
 
                 <span class="span4 fg-white padding10">[{{item.film.genre}}]</span>

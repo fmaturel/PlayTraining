@@ -1,7 +1,7 @@
-Using Spring from within a Play 2.0 application
+Using Spring from within a Play 2.x application
 ===============================================
 
-This is a simple application demonstrating how to integrate a Play 2.0 application components with <a href="http://www.springsource.org/">Spring framework</a>.
+This is a simple application demonstrating how to integrate a Play 2.x application components with <a href="http://www.springsource.org/">Spring framework</a>.
 
 > Note that the same technique can be applied to any other dependency injection framework.
 

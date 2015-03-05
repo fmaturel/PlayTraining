@@ -10,7 +10,7 @@ import utils.PerfLogger;
 import views.html.bo.login;
 
 public class UserLogin extends Controller {
-    
+
     /**
      * Cache duration in seconds: 1 month
      */

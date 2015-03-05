@@ -6,6 +6,11 @@
     <persistence-unit name="videoPersistenceUnit" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <non-jta-data-source>VideoStore</non-jta-data-source>
+        
+        <class>models.Film</class>
+        <class>models.Acteur</class>
+        <class>models.User</class>
+        
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             

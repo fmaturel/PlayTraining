@@ -1,9 +1,7 @@
 package controllers.bo;
 
-import static play.libs.F.Promise.promise;
-
-import java.util.concurrent.TimeUnit;
-
+import akka.actor.Cancellable;
+import com.google.common.collect.Lists;
 import models.Report;
 import play.Logger;
 import play.libs.Akka;
@@ -13,12 +11,12 @@ import play.libs.F.Promise;
 import play.mvc.Controller;
 import play.mvc.Result;
 import play.mvc.Security;
-import play.mvc.SimpleResult;
 import scala.concurrent.duration.Duration;
 import views.html.bo.report;
-import akka.actor.Cancellable;
 
-import com.google.common.collect.Lists;
+import java.util.concurrent.TimeUnit;
+
+import static play.libs.F.Promise.promise;
 
 @Security.Authenticated(controllers.bo.Authenticator.class)
 public class Reports extends Controller {
@@ -54,7 +52,7 @@ public class Reports extends Controller {
                 return promiseOfExpeditionReport.map(new Function<Report, Result>() {
 
                     @Override
-                    public SimpleResult apply(final Report r2) {
+                    public Result apply(final Report r2) {
                         return ok(report.render(Lists.newArrayList(r1, r2), username));
                     }
                 });

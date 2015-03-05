@@ -1,30 +1,27 @@
 package utils;
 
-import java.lang.reflect.Field;
+import com.jolbox.bonecp.BoneCP;
+import com.jolbox.bonecp.BoneCPDataSource;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.jpa.HibernateEntityManagerFactory;
+import org.hibernate.stat.Statistics;
+import play.Logger;
+import play.Play;
+import play.db.DB;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
-
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.jpa.HibernateEntityManagerFactory;
-import org.hibernate.stat.Statistics;
-
-import play.Logger;
-import play.Play;
-import play.db.DB;
-
-import com.jolbox.bonecp.BoneCP;
-import com.jolbox.bonecp.BoneCPDataSource;
+import java.lang.reflect.Field;
 
 public class ThreadSafeJPA {
-    
+
     public static class Test {
-        
+
         private static final EntityManagerFactory testEmf = Persistence.createEntityManagerFactory("test-H2");
-        
+
         public static EntityManager em() {
             ThreadLocal<EntityManager> t = new ThreadLocal<EntityManager>();
             t.set(testEmf.createEntityManager());
@@ -46,7 +43,7 @@ public class ThreadSafeJPA {
         Logger.debug("Creating EntityManagerFactory (EMF) for Persistence Unit: {}", UNIT_NAME);
         emf = Persistence.createEntityManagerFactory(UNIT_NAME);
     }
-    
+
     public static interface Block<R> {
         public R apply(EntityManager em);
     }

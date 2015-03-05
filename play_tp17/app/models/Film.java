@@ -1,32 +1,17 @@
 package models;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.TypedQuery;
-import javax.validation.Valid;
-
+import com.google.common.collect.ImmutableListMultimap;
+import controllers.Frontoffice.Order;
+import controllers.Frontoffice.Order.Item;
 import org.hibernate.validator.constraints.NotEmpty;
-
-import play.data.validation.Constraints.Max;
-import play.data.validation.Constraints.MaxLength;
-import play.data.validation.Constraints.Min;
-import play.data.validation.Constraints.MinLength;
-import play.data.validation.Constraints.Required;
+import play.data.validation.Constraints.*;
 import play.db.jpa.JPA;
 import utils.PerfLogger;
 
-import com.google.common.collect.ImmutableListMultimap;
-
-import controllers.Frontoffice.Order;
-import controllers.Frontoffice.Order.Item;
+import javax.persistence.*;
+import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Représente un Film disposant d'un titre, un genre, un nombre d’exemplaire de DVD disponible, un acteur principal et
@@ -150,12 +135,12 @@ public class Film {
     }
 
     /*
-     * ############################################# JPA#############################################
+     * ############################################# JPA #############################################
      */
 
     /**
      * Récupération d'un Film par son identifiant
-     * 
+     *
      * @param id identifiant du Film
      * @return le Film correspondant à l'identifiant
      */
@@ -168,7 +153,7 @@ public class Film {
 
     /**
      * Récupération de tous les Films
-     * 
+     *
      * @return l'ensemble des Films
      */
     public static List<Film> findAll() {
@@ -181,7 +166,7 @@ public class Film {
 
     /**
      * Récupération de tous les Films par critère
-     * 
+     *
      * @return l'ensemble des Films
      */
     public static List<Film> findBy(String genre, int maxResult) {

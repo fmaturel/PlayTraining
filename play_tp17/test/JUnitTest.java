@@ -1,12 +1,6 @@
-
 import junit.framework.TestCase;
 import models.Report;
-
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 public class JUnitTest extends TestCase {
 
@@ -34,7 +28,7 @@ public class JUnitTest extends TestCase {
     public void test() {
         Report r = new Report("test");
         r.content = "Ceci est un test".getBytes();
-        
+
         assertEquals(null, r.getChunk(Integer.MIN_VALUE));
         assertEquals(null, r.getChunk(-1));
         assertEquals("Ceci", r.getChunk(0));

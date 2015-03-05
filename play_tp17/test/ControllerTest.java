@@ -1,30 +1,22 @@
-import static controllers.routes.ref.Frontoffice;
-import static org.fest.assertions.Assertions.assertThat;
-import static play.mvc.Http.Status.OK;
-import static play.test.Helpers.callAction;
-import static play.test.Helpers.charset;
-import static play.test.Helpers.contentAsString;
-import static play.test.Helpers.contentType;
-import static play.test.Helpers.fakeRequest;
-import static play.test.Helpers.inMemoryDatabase;
-import static play.test.Helpers.start;
-import static play.test.Helpers.status;
 import models.Acteur;
 import models.Film;
 import models.Film.FilmBuilder;
 import models.Genre;
-
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
 import play.Logger;
 import play.db.jpa.JPA;
 import play.libs.F.Function0;
 import play.mvc.Result;
 import play.test.FakeApplication;
 import play.test.Helpers;
+
+import static controllers.routes.ref.Frontoffice;
+import static org.fest.assertions.Assertions.assertThat;
+import static play.mvc.Http.Status.OK;
+import static play.test.Helpers.*;
 
 public class ControllerTest {
 

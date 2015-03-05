@@ -1,17 +1,11 @@
 package models;
 
-import java.util.ArrayList;
-import java.util.List;
+import org.hibernate.validator.constraints.NotEmpty;
+import play.data.validation.Constraints.*;
 
 import javax.validation.Valid;
-
-import org.hibernate.validator.constraints.NotEmpty;
-
-import play.data.validation.Constraints.Max;
-import play.data.validation.Constraints.MaxLength;
-import play.data.validation.Constraints.Min;
-import play.data.validation.Constraints.MinLength;
-import play.data.validation.Constraints.Required;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Représente un Film disposant d'un titre, un genre, un nombre d’exemplaire de DVD disponible, un acteur principal et

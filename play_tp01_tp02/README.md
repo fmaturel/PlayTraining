@@ -9,9 +9,9 @@ Follow the trainer's to retrieve the binaries of following programs:
 
 | Program | Version | Use |
 | :------------ |:---------------:| -----:|
-| Java JDK 6 or 7 | 7u51 | Java Development Kit containing common classes required for any development in Java |
-| Play! Framework 2 | 2.2.2 (02/2014) | This is the Java Web Framework studied during the course! Source: http://www.playframework.com |
-| Eclipse Kepler with Scala | 3.0.2 | The Eclipse IDE enhanced with a Scala editor and plugin for Play! Framework. Source: http://scala-ide.org |
+| Java JDK 6, 7 or 8 | 7u51 | Java Development Kit containing common classes required for any development in Java |
+| Play! Framework 2 | 2.3.8 (02/2015) | This is the Java Web Framework studied during the course! Source: http://www.playframework.com |
+| Eclipse with Scala | 4.0.0 | The Eclipse IDE enhanced with a Scala editor and plugin for Play! Framework. Source: http://scala-ide.org |
 
 ## Installation @Home
 

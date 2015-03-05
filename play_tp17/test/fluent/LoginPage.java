@@ -1,9 +1,9 @@
 package fluent;
 
-import static org.fest.assertions.Assertions.assertThat;
-
 import org.fluentlenium.core.FluentPage;
 import org.openqa.selenium.WebDriver;
+
+import static org.fest.assertions.Assertions.assertThat;
 
 /**
  * Illustration of the Page Object Pattern in Fluentlenium.
@@ -14,9 +14,9 @@ public class LoginPage extends FluentPage {
 
     /**
      * Create the LoginPage.
-     * 
+     *
      * @param webDriver The driver.
-     * @param port The port.
+     * @param port      The port.
      */
     public LoginPage(WebDriver webDriver, int port, String path) {
         super(webDriver);
@@ -35,8 +35,8 @@ public class LoginPage extends FluentPage {
 
     /**
      * Set the form to the passed values, then submit it.
-     * 
-     * @param email The form email data.
+     *
+     * @param email    The form email data.
      * @param password The form password value.
      */
     public void submitForm(String email, String password) {

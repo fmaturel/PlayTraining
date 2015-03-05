@@ -1,13 +1,12 @@
 package utils;
 
-import java.util.Arrays;
-import java.util.Date;
-
+import ch.qos.logback.classic.LoggerContext;
+import ch.qos.logback.core.util.StatusPrinter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ch.qos.logback.classic.LoggerContext;
-import ch.qos.logback.core.util.StatusPrinter;
+import java.util.Arrays;
+import java.util.Date;
 
 public class PerfLogger {
 
@@ -50,7 +49,7 @@ public class PerfLogger {
         this.endtime = System.currentTimeMillis();
         if (LOGGER.isTraceEnabled()) {
             LOGGER.trace("Start[{}] time[{}] hr[{}] tag[" + this.message + "]",
-                    concat(new Object[] { this.startTime, time(), hr() }, this.objs));
+                    concat(new Object[]{this.startTime, time(), hr()}, this.objs));
         }
     }
 
@@ -59,7 +58,7 @@ public class PerfLogger {
         this.endtime = System.currentTimeMillis();
         if (LOGGER.isTraceEnabled()) {
             LOGGER.trace("Start[{}] time[{}] hr[{}] tag[" + message + "]",
-                    concat(new Object[] { this.startTime, time(), hr() }, objs));
+                    concat(new Object[]{this.startTime, time(), hr()}, objs));
         }
     }
 

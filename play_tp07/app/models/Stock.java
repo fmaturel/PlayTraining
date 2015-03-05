@@ -1,9 +1,9 @@
 package models;
 
-import java.util.HashSet;
-
 import models.Film.FilmBuilder;
 import play.Logger;
+
+import java.util.HashSet;
 
 /**
  * Représente le Stock (inventaire) de {@link Film} de notre boutique en ligne
@@ -14,7 +14,7 @@ public class Stock {
 
     /**
      * Récupère la liste de {@link Film} du Stock
-     * 
+     *
      * @return la liste de {@link Film} du Stock
      */
     public static HashSet<Film> getListeDesFilms() {
@@ -23,7 +23,7 @@ public class Stock {
 
     /**
      * Récupère un {@link Film} du Stock
-     * 
+     *
      * @param id l'identifiant technique du {@link Film} à récupérer
      * @return le film correspondant à l'identifiant technique
      */
@@ -38,7 +38,7 @@ public class Stock {
 
     /**
      * Supprime un {@link Film} du Stock
-     * 
+     *
      * @param id l'identifiant technique du {@link Film} à supprimer
      * @return le film qui vient d'être supprimé
      */
@@ -50,7 +50,7 @@ public class Stock {
 
     /**
      * Enregistre en mémoire plusieurs films pour les besoins des tps.
-     * 
+     *
      * @return la liste des films enregistrés en mémoire
      */
     public static HashSet<Film> populate() {

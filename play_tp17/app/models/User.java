@@ -1,18 +1,17 @@
 package models;
 
-import java.util.List;
-
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.TypedQuery;
-
 import play.data.format.Formats;
 import play.data.validation.Constraints;
 import play.db.jpa.JPA;
 import utils.PerfLogger;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.TypedQuery;
+import java.util.List;
+
 /**
- * User entity managed by Ebean
+ * Représente un utilisateur de la solution backoffice
  */
 @Entity
 public class User {
@@ -30,7 +29,7 @@ public class User {
 
     /**
      * Récupération d'un Utilisateur par son email
-     * 
+     *
      * @param email email de l'Utilisateur
      * @return l'Utilisateur correspondant à l'email
      */
@@ -40,7 +39,7 @@ public class User {
 
     /**
      * Récupération de tous les Utilisateurs
-     * 
+     *
      * @return l'ensemble des Utilisateurs
      */
     public static List<User> findAll() {
@@ -53,7 +52,7 @@ public class User {
      */
     public static User authenticate(String email, String password) {
         TypedQuery<User> query = JPA.em().createQuery(//
-                "FROM User u where u.email = :email and u.password = :password", User.class)//
+                "select u from User u where u.email = :email and u.password = :password", User.class)//
                 .setParameter("email", email)//
                 .setParameter("password", password);
         List<User> result = query.getResultList();

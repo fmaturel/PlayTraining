@@ -1,8 +1,9 @@
 package controllers;
 
-import java.util.List;
-import java.util.concurrent.Callable;
-
+import com.fasterxml.jackson.databind.JsonNode;
+import com.google.common.base.Function;
+import com.google.common.collect.ImmutableListMultimap;
+import com.google.common.collect.Multimaps;
 import models.Film;
 import play.cache.Cache;
 import play.libs.Json;
@@ -11,10 +12,8 @@ import play.mvc.Controller;
 import play.mvc.Result;
 import utils.PerfLogger;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.google.common.base.Function;
-import com.google.common.collect.ImmutableListMultimap;
-import com.google.common.collect.Multimaps;
+import java.util.List;
+import java.util.concurrent.Callable;
 
 public class Frontoffice extends Controller {
 
@@ -30,7 +29,7 @@ public class Frontoffice extends Controller {
 
     /**
      * Get the list of {@link Film}.
-     * 
+     *
      * @throws Exception
      */
     // @Cached(key = "list", duration = DURATION) => Pose un problème car ne tient pas compte du paramètrage
@@ -52,7 +51,7 @@ public class Frontoffice extends Controller {
     /**
      * Get a {@link Film} by id.<br>
      * Can use @Cached annotation as
-     * 
+     *
      * @throws Exception
      */
     // @Cached(key = "detail", duration = DURATION) => Pose un problème car ne tient pas compte du paramètrage

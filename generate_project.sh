@@ -11,12 +11,12 @@
 # CHECK IF THE PLAY COMMAND EXISTS
 ######################################################################################################
 
-if hash play 2>/dev/null;
+if hash activator 2>/dev/null;
 then
-	PLAY=play
+	ACTIVATOR=activator
 else
-	echo "Play command not found, expecting it in /opt/devtools/play/play-2.2.2/play"
-	PLAY=/opt/devtools/play/play-2.2.2/play
+	echo "Activator command not found, expecting it in /opt/activator/activator"
+	ACTIVATOR=/opt/activator/activator
 fi
 
 ######################################################################################################
@@ -26,11 +26,14 @@ fi
 generate () {
 for dir in $1/*/
 do
-	cd $dir
+	cd ${dir}
 	echo "entered $dir"
-	$PLAY "clean-all"
-	#$PLAY "eclipse with-source=true"
-	#$PLAY "compile"
+	rm -rf app-2.11 logs project/project project/target projectFilesBackup target .*
+#	${ACTIVATOR} "clean"
+#	${ACTIVATOR} "idea with-sources=yes"
+#	${ACTIVATOR} "eclipse with-source=true"
+#	${ACTIVATOR} "compile"
+#	${ACTIVATOR} "test"
 	cd ..
 done
 }

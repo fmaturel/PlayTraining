@@ -2,23 +2,23 @@
 
     <table class="table striped3n">
         <thead>
-            <th>Titre</th>
-            <th>Genre</th>
-            <th>Nombre en stock</th>
-            <th>Action</th>
+        <th>Titre</th>
+        <th>Genre</th>
+        <th>Nombre en stock</th>
+        <th>Action</th>
         </thead>
         <body>
-            <tr class="text-center" ng-repeat="film in films" >
-                <td><a href="#/films/{{film.id}}">{{film.titre}}</a></td>
-                <td>{{film.genre}}</td>
-                <td>{{film.nombreExemplaire}}</td>
-                <td>
-                    <form ng-controller="CartCtrl" class="margin10">
-                        <input type="hidden" name="id" ng-model="film.id">
-                        <input type="button" class="large" value="Ajouter" ng-click="submit()">
-                    </form>
-                </td>
-            </tr>
+        <tr class="text-center" ng-repeat="film in films">
+            <td><a href="#/films/{{film.id}}">{{film.titre}}</a></td>
+            <td>{{film.genre}}</td>
+            <td>{{film.nombreExemplaire}}</td>
+            <td>
+                <form ng-controller="CartCtrl" class="margin10">
+                    <input type="hidden" name="id" ng-model="film.id">
+                    <input type="button" class="large" value="Ajouter" ng-click="submit()">
+                </form>
+            </td>
+        </tr>
         </body>
     </table>
 </div>

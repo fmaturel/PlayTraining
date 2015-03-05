@@ -1,24 +1,22 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static play.test.Helpers.inMemoryDatabase;
-import static play.test.Helpers.start;
-
-import java.util.List;
-
 import models.Acteur;
 import models.Film;
 import models.Film.FilmBuilder;
 import models.Genre;
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
 import play.Logger;
 import play.db.jpa.JPA;
 import play.libs.F.Function0;
 import play.test.FakeApplication;
 import play.test.Helpers;
+
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static play.test.Helpers.inMemoryDatabase;
+import static play.test.Helpers.start;
 
 public class IntegrationTest {
 

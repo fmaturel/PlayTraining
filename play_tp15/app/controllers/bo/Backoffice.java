@@ -1,19 +1,14 @@
 package controllers.bo;
 
-import static play.data.Form.form;
 import models.Film;
-import play.api.templates.Html;
 import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
-import utils.PerfLogger;
-import controllers.bo.routes;
-import views.html.bo.createForm;
-import views.html.bo.editForm;
-import views.html.bo.index;
-import views.html.bo.list;
-import views.html.bo.notfound;
 import play.mvc.Security;
+import play.twirl.api.Html;
+import utils.PerfLogger;
+
+import static play.data.Form.form;
 
 @Security.Authenticated(controllers.bo.Authenticator.class)
 public class Backoffice extends Controller {
@@ -51,7 +46,7 @@ public class Backoffice extends Controller {
 
     /**
      * Display the 'edit form' of a existing Film.
-     * 
+     *
      * @param id Id of the film to edit
      */
     @play.db.jpa.Transactional(readOnly = true)
@@ -66,7 +61,7 @@ public class Backoffice extends Controller {
 
     /**
      * Handle the 'edit form' submission
-     * 
+     *
      * @param id Id of the film to edit
      */
     @play.db.jpa.Transactional

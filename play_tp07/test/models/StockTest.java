@@ -1,16 +1,15 @@
 package models;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.HashSet;
-
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
 import play.Logger;
 import play.test.FakeApplication;
 import play.test.Helpers;
+
+import java.util.HashSet;
+
+import static org.junit.Assert.assertEquals;
 
 public class StockTest {
 

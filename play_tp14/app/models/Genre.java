@@ -12,7 +12,7 @@ public enum Genre {
 
     /**
      * Transforme une enum en {@link Map} pour les besoins d'affichage dans les templates Play!
-     * 
+     *
      * @return une {@link Map} affichable par un template Play!
      */
     public static Map<String, String> options() {

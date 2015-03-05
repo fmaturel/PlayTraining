@@ -1,29 +1,26 @@
 package fluent;
 
-import static org.fest.assertions.Assertions.assertThat;
-import static play.test.Helpers.HTMLUNIT;
-import static play.test.Helpers.fakeApplication;
-import static play.test.Helpers.inMemoryDatabase;
-import static play.test.Helpers.running;
-import static play.test.Helpers.testServer;
 import models.User;
-
 import org.junit.Test;
-
 import play.Logger;
 import play.db.jpa.JPA;
 import play.libs.F.Callback;
 import play.libs.F.Function0;
 import play.test.TestBrowser;
 
+import static org.fest.assertions.Assertions.assertThat;
+import static play.test.Helpers.*;
+
 /**
  * Sample "integration" test, using the functioning webapp.
- * 
+ *
  * @author Philip Johnson
  */
 public class FonctionalFluentTest {
 
-    /** The port to be used for testing. */
+    /**
+     * The port to be used for testing.
+     */
     private final int port = 3333;
 
     /**

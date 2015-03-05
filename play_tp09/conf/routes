@@ -3,30 +3,30 @@
 # ~~~~
 
 # Page d'accueil front
-GET     /                          controllers.Application.index()
+GET         /                           controllers.Application.index()
 
 # Page d'accueil back
-GET     /bo                        controllers.bo.Backoffice.index()
+GET         /bo                         controllers.bo.Backoffice.index()
 
 # Liste des films
-GET     /bo/films                  controllers.bo.Backoffice.list()
+GET         /bo/films                   controllers.bo.Backoffice.list()
 
 # Ajoute un film
-GET     /bo/films/new              controllers.bo.Backoffice.create()
-POST    /bo/films                  controllers.bo.Backoffice.save()
+GET         /bo/films/new               controllers.bo.Backoffice.create()
+POST        /bo/films                   controllers.bo.Backoffice.save()
 
 # Modifie un film existant
-GET     /bo/films/:id              controllers.bo.Backoffice.edit(id:Long)
-POST    /bo/films/:id              controllers.bo.Backoffice.update(id:Long)
+GET         /bo/films/:id               controllers.bo.Backoffice.edit(id:Long)
+POST        /bo/films/:id               controllers.bo.Backoffice.update(id:Long)
 
 # Supprime un film
-POST    /bo/films/:id/delete       controllers.bo.Backoffice.delete(id:Long)
+POST        /bo/films/:id/delete        controllers.bo.Backoffice.delete(id:Long)
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file              controllers.Assets.at(path="/public", file)
+GET         /assets/*file               controllers.Assets.at(path="/public", file)
 
 # Page de redirection
-GET     /backoffice                controllers.Default.redirect(to = "/bo")
+GET         /backoffice                 controllers.Default.redirect(to = "/bo")
 
 # Map any other resource to the "page not found" action
-GET     /*any                      controllers.Application.pageNotFound(any)
+GET         /*any                       controllers.Application.pageNotFound(any)

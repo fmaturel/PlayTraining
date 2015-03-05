@@ -1,20 +1,12 @@
 package models;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import javax.persistence.Entity;
-import javax.persistence.EntityManager;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Lob;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-
 import play.Logger;
 import play.db.jpa.JPA;
 import utils.ThreadSafeJPA;
+
+import javax.persistence.*;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @Entity
 public class Report {
@@ -89,7 +81,7 @@ public class Report {
 
     /**
      * Récupération d'un Report par son identifiant
-     * 
+     *
      * @param id identifiant du Report
      * @return le Report correspondant à l'identifiant
      */

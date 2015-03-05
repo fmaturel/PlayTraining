@@ -1,3 +1,8 @@
+RUNNING_PID
+play-fork-run.sbt
+sbt-ui.sbt
+target
+logs
 .target
 .cache
 .metadata
